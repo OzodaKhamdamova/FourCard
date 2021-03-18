@@ -1,0 +1,87 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:'Poppins', sans-serif;
+font-size: 15px;
+background: hsl(0, 0%, 98%);
+
+}
+header{
+    text-align: center;
+    padding-top: 40px;
+}
+.title-page{
+    font-weight: 200;
+    margin-bottom: 25px;
+    line-height: 30px;
+}
+.header-prp{
+    font-weight: 200;   
+    line-height: 20px;
+}
+main{
+    display: flex;
+    padding: 35px 55px;
+    justify-content: center;
+
+}
+.column{
+    width: 295px;
+    height: 200px;
+    margin-right: 40px;
+    background-color:white;
+    border-radius: 5px;
+   font-size: 13px;
+   font-weight: 200;
+   
+}
+.first-column{
+    border-top: 4px solid hsl(180, 62%, 55%);
+    margin-top: 100px;
+    background-image: url('images/icon-supervisor.svg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 50px;
+    background-position-x: 215px;
+    background-position-y: 115px;
+   
+}
+.upper{
+    border-top: 4px solid hsl(0, 78%, 62%);
+    background-image: url('images/icon-team-builder.svg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 50px;
+    background-position-x: 215px;
+    background-position-y: 115px;
+   
+}
+.bottom{
+    border-top: 4px solid hsl(34, 97%, 64%);
+    margin-top: 15px;
+    background-image: url('images/icon-karma.svg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 50px;
+    background-position-x: 215px;
+    background-position-y: 115px;
+}
+.third-column{
+    border-top: 4px solid hsl(212, 86%, 64%);
+    margin-top: 100px;
+    background-image: url("images/icon-calculator.svg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 50px;
+    background-position-x: 215px;
+    background-position-y: 115px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 50px;
+    background-position-x: 215px;
+    background-position-y: 115px;
+}
+.col-text{
+    padding-left: 14px;
+}
